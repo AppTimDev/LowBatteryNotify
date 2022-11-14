@@ -21,7 +21,11 @@ pip install win10toast==0.9
 ```
 
 To make the Program Run at Windows Startup
-Open your registry and find the key:
+
+Run the script registry_auto.bat as administrator
+
+or 
+Manually, open your registry and find the key:
 [HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Run]
 
 Create a new string value using a descriptive name, and set the value of the string to the program executable.
