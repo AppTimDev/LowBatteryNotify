@@ -1,0 +1,1 @@
+CreateObject("Wscript.Shell").Run "D:\lowbattery\lowbattery.bat", 0 , True
